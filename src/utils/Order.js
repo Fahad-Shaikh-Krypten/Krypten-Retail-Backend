@@ -5,7 +5,7 @@ import User from '../models/User.js';
 import NodeCache from 'node-cache';
 import { decryptData , encryptData} from './Encryption.js';
 import Address from '../models/Address.js';
-import { createShiprocketOrder , authenticateShiprocket} from './Shiprocket.js';
+import { createShiprocketOrder , authenticateShiprocket} from './ShipRocket.js';
 import dotenv from 'dotenv';
 import axios from 'axios';
 
